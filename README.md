@@ -15,7 +15,7 @@ version: '2'
 
 services:
   mysql-agent:
-    image: oliosinter/ansible-probe:1.0.1
+    image: oliosinter/ansible-probe:1.0.0
     links:
       - mysql
     environment:
