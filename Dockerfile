@@ -15,3 +15,5 @@ COPY probe.yml /ansible
 WORKDIR /ansible
 
 ENTRYPOINT ["ansible-playbook"]
+
+CMD ["probe.yml"]
