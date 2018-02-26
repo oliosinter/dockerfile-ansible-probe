@@ -10,7 +10,7 @@ RUN apt-get update -qy && \
     apt-get update -qy && \
     apt-get install -qy ansible
 
-COPY probe.yml /ansible
+COPY ./probe.yml /ansible/
 
 WORKDIR /ansible
 
